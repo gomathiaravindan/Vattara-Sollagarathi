@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+  <meta charset = utf-8>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel ="stylesheet" href="result.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <div class ="container">
+    <div class="card">
+      <div class="circle">
+        <h2 id="result"></h2>
+      </div>
+      <div class="content">
+         
+        <p>சொல் பொருள்</p>
+        <p id="porul"></p>
+        <p>சொல்லின் வட்டாரம்</p>
+        <p id="vatt"></p>
+        
+        <script>
+            var word = localStorage.getItem("textvalue");
+            document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
+            if(word == "மக்கா")
+            {
+              document.getElementById("porul").innerHTML = "நண்பா";
+              document.getElementById("vatt").innerHTML = "திருநெல்வேலி";
+        
+            }
+
+             if(word == "பைதா")
+            {
+              document.getElementById("porul").innerHTML = "சக்கரம்";
+              document.getElementById("vatt").innerHTML = "திருநெல்வேலி";
+        
+            }
+            
+             if(word == "அண்டை")
+            {
+              document.getElementById("porul").innerHTML = "அடுப்பு";
+              document.getElementById("vatt").innerHTML = "குமரி";
+        
+            }
+             if(word == "இரி")
+            {
+              document.getElementById("porul").innerHTML = "இரு, உட்கார்";
+              document.getElementById("vatt").innerHTML = "குமரி";
+        
+            }
+             if(word == "லந்து")
+            {
+              document.getElementById("porul").innerHTML = "கிண்டல்";
+              document.getElementById("vatt").innerHTML = "மதுரை";
+        
+            }
+             if(word == "வசவு")
+            {
+              document.getElementById("porul").innerHTML = "திட்டு";
+              document.getElementById("vatt").innerHTML = "மதுரை";
+        
+            }
+             if(word == "காண்டு")
+            {
+              document.getElementById("porul").innerHTML = "கோபம்";
+              document.getElementById("vatt").innerHTML = "சென்னை";
+        
+            }
+             if(word == "பேஜாறு")
+            {
+              document.getElementById("porul").innerHTML = "பிரச்சனை";
+              document.getElementById("vatt").innerHTML = "சென்னை";
+        
+            }
+             if(word == "செவிடு")
+            {
+              document.getElementById("porul").innerHTML = "கன்னம்";
+              document.getElementById("vatt").innerHTML = "தூத்துக்குடி";
+        
+            }
+             if(word == "குறுக்கு")
+            {
+              document.getElementById("porul").innerHTML = "முதுகு";
+              document.getElementById("vatt").innerHTML = "தூத்துக்குடி";
+        
+            }
+             if(word == "அம்மிணி")
+            {
+              document.getElementById("porul").innerHTML = "பெண்ணைக் குறிக்கும்";
+              document.getElementById("vatt").innerHTML = "கோவை";
+        
+            }
+             if(word == "ஒட்டுக்கா")
+            {
+              document.getElementById("porul").innerHTML = "ஒரேயடியாக, இணைந்து";
+              document.getElementById("vatt").innerHTML = "கோவை";
+        
+            }
+             if(word == "யாண்டா")
+            {
+              document.getElementById("porul").innerHTML = "ஏன்டா";
+              document.getElementById("vatt").innerHTML = "தஞ்சை";
+        
+            }
+             if(word == "சர்த்தான்")
+            {
+              document.getElementById("porul").innerHTML = "சரிதான்";
+              document.getElementById("vatt").innerHTML = "தஞ்சை";
+        
+            }
+            
+
+          </script>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>

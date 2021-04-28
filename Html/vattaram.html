@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mozhi Kalanjium</title>
+	<meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+	<meta charset = utf-8>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel ="stylesheet" href="vattaram.css">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+	<script>
+		function passvalue()
+		{
+			var firstname = document.getElementById("txt").value;
+			localStorage.setItem("textvalue",firstname);
+			return false;
+		}
+	</script>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      	<li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="index.html">முகப்பு</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="agaraathi.html" target="_parent">அகராதிகளின் தொகுப்புகள்</a>
+        </li>
+              
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="katturai.html">வெளிவந்த கட்டுரைகள்</a>
+        </li> 
+        <!--li class="nav-item dropdown text-white">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            வட்டார மொழிக் களஞ்சியம்
+          </a>
+          <ul class="dropdown-menu bg-primary text-white" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="thirunelveli.html">திருநெல்வேலி</a></li>
+            <li><a class="dropdown-item" href="tuticorin.html">தூத்துக்குடி</a></li>
+            <li><a class="dropdown-item" href="madurai.html">மதுரை</a></li>
+            <li><a class="dropdown-item" href="covai.html">கோவை</a></li>
+            <li><a class="dropdown-item" href="chennai.html">சென்னை</a></li>
+            <li><a class="dropdown-item" href="kumari.html">குமரி</a></li>
+            <li><a class="dropdown-item" href="thanjai.html">தஞ்சை</a></li>
+          </ul>
+        </li-->
+      </ul>
+      <form class="d-flex" method = "post" action = "result.php">
+        <input class="form-control me-2" name = "sorkal" type="search" id="txt" placeholder="Search" aria-label="Search">
+        <input class="btn btn-outline-primary"   value ="Search" type="submit">
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid box">
+
+	<div class ="container slide-right">
+		<h1 style="text-align:left;"><strong><u>தமிழ் வட்டார களஞ்சியம்</u></strong></h1>
+		<section class="sec1">
+			<h4>தமிழகத்தில் மட்டுமல்லாது உலகளவில் தமிழில் "22" வட்டார வழக்குகள் இருப்பதாக எத்னொலோக் (Ethnologue) என்ற உலக மொழிகள் பற்றிய பதிப்பு நிறுவனம் தெரிவிக்கிறது.</h4>
+			<br>
+			<ul class="main-list">
+				<li><h4>திருநெல்வேலித் தமிழ்</h4></li>
+				<li><h4>அரிசனப் பேச்சுத் தமிழ்</h4></li>
+				<li><h4>குமரி மாவட்டத் தமிழ்</h4></li>
+				<li><h4>கொங்குத் தமிழ்</h4></li>
+				<li><h4>செட்டிநாட்டுத் தமிழ்</h4></li>
+				<li><h4>சென்னைத் தமிழ்</h4></li>
+				<li><h4>மட்டக்களப்புப் பேச்சுத் தமிழ்</h4></li>
+				<li><h4>நாஞ்சில் தமிழ்</h4></li>
+				<li><h4>மணிப்பிரவாளம் </h4></li>
+				<li><h4>மலேசியத்  தமிழ்</h4></li>
+				<li><h4>யாழ்பாணத்துப் பேச்சுத் தமிழ்</h4></li>
+				<li><h4>சுனூன்  தமிழ்</h4></li>
+				<li><h4>பெங்களூர்  தமிழ்</h4></li>
+			</ul>
+				<br>
+			<h4>அவையாவன ஆதி திராவிடர், ஐயர், ஐயங்கார், அரவா, பருகண்டி, கசுவா, கொங்கர், கொரவா, கொர்சி, மதராசி, பரிகலா, பாட்டு மொழி, இலங்கை தமிழ், மலேசியா தமிழ், பர்மா தமிழ், தென்னாப்பிரிக்கா தமிழ், திகாலு, அரிசன், சங்கேதி, கெப்பார், போன்றவைகளாகும். கொங்கு மற்றும் குமரி ஆவன வேறிரு தெரிந்த வட்டார வழக்குகள்.</h4>
+			<h4><strong>கீழுள்ள வட்டாரத்தில் அந்தந்த வட்டாரத்தின் சொற்களை திரட்டி உள்ளோம்.தங்களுடைய விருப்பமான வட்டாரத்தைக் கிளிக் செய்து அதன் வட்டாரச் சொற்களைக் காணலாம்.</strong></h4>
+
+			
+			
+			<ul class="list card-text"> 
+			<li><h5><a href="kumari.html" target="_parent" class="text-white"><h5><strong>கன்னியாகுமரி</strong></h5></a></li>
+				<li><a href="thirunelveli.html" target="_parent" class="text-white"><h5><strong>திருநெல்வேலி</strong></h5></a></li>
+				<li><a href="madurai.html" target="_parent" class="text-white"><h5><strong>மதுரை</strong></h5></a></li>
+				<li><a href="chennai.html" target="_parent" class="text-white"><h5><strong>சென்னை</strong></h5></a></li>
+				<li><a href="tuticorin.html" target="_parent" class="text-white"><h5><strong>தூத்துக்குடி</strong></h5></a></li>
+				<li><a href="covai.html" target="_parent" class="text-white"><h5><strong>கோவை</strong></h5></a></li>
+				<li><a href="thanjai.html" target="_parent" class="text-white"><h5><strong>தஞ்சை</strong></h5></a></li>
+			</ul>
+</h5>
+			</li>
+		</ul></div></div>
+		</section>
+	</div>
+
+
+
+
