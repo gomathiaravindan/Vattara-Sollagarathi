@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	color:#000;
+}
+
+.container{
+	border: 2px solid black;
+	margin:20px;
+}
+
+.container #first_letter::first-letter
+{
+	font-size:40px;
+	font-weight:bolder;
+}
